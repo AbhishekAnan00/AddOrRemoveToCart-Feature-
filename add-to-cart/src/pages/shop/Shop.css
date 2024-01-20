@@ -1,0 +1,45 @@
+.shop h1{
+  text-align: center;
+}
+.products{
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+}
+.product{
+  border-radius: 15px;
+  width: 250px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.product img{
+  margin-top: 25px;
+  width: 200px;
+}
+.product .description{
+ text-align: center;
+}
+.product:hover{
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+.btn{
+  background-color: transparent;
+  border: 1px solid #1c1c1c;
+  min-width: 100px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+}
+.btn:hover{
+  background-color: #1c1c1c;
+  color: white;
+  cursor: pointer;
+}
+

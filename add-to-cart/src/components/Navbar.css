@@ -1,0 +1,36 @@
+nav {
+  background: #1c1c1c;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+nav h2 {
+  color: #fff;
+  list-style: none;
+  text-decoration: none;
+  margin-left: 100px;
+  font-family: "poppins";
+  font-size: 26px;
+  font-weight: 600;
+}
+.icon {
+  color: #fff;
+  margin-right: 50px;
+  font-size: 25px;
+  font-weight: 500;
+}
+.cart-count {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 14px;
+  margin-top: -14px;
+  border-radius: 11px;
+  font-size: 14px;
+  background: red;
+  color: white;
+}
